@@ -1,1 +1,15 @@
+const bool1 = verdadeiro const bool2 = falso const bool3 = !bool2 let resultado = bool1 && bool2 console.log("a. ", resultado) resultado = bool1 && bool2 && bool3 console.log("b. ", resultado) resultado = !resultado && (bool1 || bool2) console.log("c. ", resultado) console.log("d. ", typeof resultado)
 
+//a. falso //b.false //c.true //d. boleano
+
+//2. //let primeiroNumero = prompt("Digite um número!") //let segundoNumero = prompt("Digite outro número!") //const soma = primeiroNumero + segundoNumero //console.log(soma)
+
+// será impresso os dois números digitados no console sem a soma..
+
+//3. //let primeiroNumero = prompt("Digite um número!") //let segundoNumero = prompt("Digite outro número!") //const soma = Number (primeiroNumero) + Number (segundoNumero) //console.log(soma)
+
+// //let idade = Number(prompt("qual sua idade?")); //let idadeAmigo = Number(prompt("qual a idade do seu melhor amigo?")); //console.log("sua idade é maior que a do seu amigo?", (idade <=idadeAmigo)); //console.log("a diferença das nossas idades é:", (idade - idadeAmigo));
+
+//2 //let numero =Number(prompt("ensira um numero par")); //console.log (número% 2); //número que é dividido por 2 é igual a 0 //ah não ser que seja um número impar
+
+3// let meses = Number(prompt("idade em anos")); console.log("SUA IDADE EM MESES É;", meses *56);
